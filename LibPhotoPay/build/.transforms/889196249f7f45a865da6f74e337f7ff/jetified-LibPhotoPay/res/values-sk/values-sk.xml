@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Align">Umiestnite telefón nad poukážku.</string>
+    <string name="AutofocusFail">Fotoaparát nedokáže zaostriť. Skúste načítať poukážku pod iným svetlom.</string>
+    <string name="CameraAtAngle">Prosím vložte skenovaný text do obdĺžnika nižšie. Ukol skenovaného textu je veľmi ostrý</string>
+    <string name="CameraTooHigh">Umiestnite prosím telefón bližšie k poukážke.</string>
+    <string name="CameraTooNear">Umiestnite prosím telefón ďalej od poukážky.</string>
+    <string name="Copied">Text bol skopírovaný do schránky.</string>
+    <string name="Copy">Kopírovať</string>
+    <string name="CustomUIForbidden">License does not permit custom camera activity!</string>
+    <string name="FeatureUnsuportedAndroidVersion">Túto funkciu podporuje iba verzia Android 2.1 a vyššia.</string>
+    <string name="FeatureUnsuportedAutofocus">Túto funkciu nepodporujú telefóny bez automatického zaostrovania.</string>
+    <string name="FeatureUnsuportedDevice">Technické parametre vášho zariadenia túto funkciu nepodporujú.</string>
+    <string name="FullRecognition">Poukážka rozpoznaná.</string>
+    <string name="InvalidLicense">Neplatný licenčý kľúč. Pre viac informácií, pozrite ADB error log.</string>
+    <string name="NoRecognition">Poukážka nebola rozpoznaná</string>
+    <string name="NoRecognizers">Žiadne rozpoznávanie nebolo aktivované. Aktivujte aspoň jeden rozoznávací algoritmus!</string>
+    <string name="PPCancel">Zrušiť</string>
+    <string name="PPUse">Použiť</string>
+    <string name="PartialDetected">Niektoré časti poukážky nie sú viditeľné</string>
+    <string name="PartialRecognition">Poukážka čiastočne rozpoznaná.</string>
+    <string name="Processing">Nehýbte, prosím, s telefónom, prebieha spracovanie.</string>
+    <string name="ResultList">Zoznam výsledkov skenovania.</string>
+    <string name="loading">Načítava sa…</string>
+    <string name="mbCameraNotAllowed">Prístup k fotoaparátu nie je povolený.</string>
+    <string name="mbCameraNotReady">Fotoaparát nie je pripravený.</string>
+    <string name="mbCameraPermissionRequired">Vyžaduje sa prístup k fotoaparátu.</string>
+    <string name="mbConfirm">Potvrdiť</string>
+    <string name="mbContinue">Pokračovať</string>
+    <string name="mbEnableCamera">Povoliť prístup k fotoaparátu</string>
+    <string name="mbEnablePermissionHelp">Budete presmerovaný do nastavení, kde môžete aplikácii povoliť prístup k fotoaparátu.</string>
+    <string name="mbErrorInitializing">Nepodarilo sa spustiť knižnicu. Pre viac informácií, pozrite ADB error log.</string>
+    <string name="mbHelp">Pomoc</string>
+    <string name="mbHome">Späť</string>
+    <string name="mbLightOff">Svetlo</string>
+    <string name="mbLightOn">Svetlo</string>
+    <string name="mbOcrLineHelpMessage">Vložte celý dokument do bieleho obdĺžnika nižšie</string>
+    <string name="mbSkip">Preskočiť</string>
+    <string name="mbWarningTitle">Upozornenie</string>
+    <string name="random_scan_message_default">Umiestnite skenovanú poukážku do tohto rámu.</string>
+    <string name="random_scan_overwrite_confirm_message">Naozaj chcete znovu naskenovať %s?</string>
+</resources>

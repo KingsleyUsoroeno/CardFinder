@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CardFinder</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="card_type_not_available">Card type is not available</string>
+    <string name="card_bank_not_available">Card bank is not available</string>
+    <string name="country_not_available">Country is not available</string>
+    <string name="card_brand_not_available">Card brand is not available</string>
+</resources>

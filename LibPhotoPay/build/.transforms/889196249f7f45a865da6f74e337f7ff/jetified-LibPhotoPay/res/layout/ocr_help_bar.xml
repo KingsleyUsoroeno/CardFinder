@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/ocr_line_help_background"
+                tools:ignore="Overdraw">
+
+    <ImageButton
+        android:id="@+id/btnOcrLineHelpClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/ocr_line_help_background"
+        android:contentDescription="@string/mbHome"
+        android:src="@drawable/ocr_line_close"
+        tools:ignore="RtlHardcoded"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/imageView1"
+        android:gravity="center"
+        android:text="@string/mbOcrLineHelpMessage"
+        android:textStyle="bold"
+        android:background="@color/transparent"
+        tools:ignore="RtlHardcoded,UnusedIds"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="19dp"
+        android:layout_toLeftOf="@+id/btnOcrLineHelpClose"
+        android:contentDescription="@string/mbOcrLineHelpMessage"
+        android:src="@drawable/ocr_line_help"
+        tools:ignore="RtlHardcoded"/>
+
+</RelativeLayout>

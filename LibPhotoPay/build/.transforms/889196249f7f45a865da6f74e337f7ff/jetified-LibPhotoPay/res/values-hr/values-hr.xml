@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string name="Align">Postavite kameru iznad uplatnice ili barkoda</string>
+    <string name="AlignBarcode" ns1:ignore="UnusedResources">Namjestite telefon iznad 2D barkoda</string>
+    <string name="AlignOcrLine">Namjestite telefon iznad OCR linije</string>
+    <string name="AutofocusFail">Kamera ne može fokusirati. Skenirajte pod drugačijim svjetlom.</string>
+    <string name="CameraAtAngle">Namjestite OCR liniju u polje ispod. Kut OCR linije je prevelik.</string>
+    <string name="CameraTooHigh">Približite telefon uplatnici</string>
+    <string name="CameraTooNear">Udaljite uređaj od uplatnice ili barkoda</string>
+    <string name="Copied">Tekst je kopiran u sustavski međuspremnik</string>
+    <string name="Copy">Kopiraj</string>
+    <string name="CustomUIForbidden">Licenca ne dozvoljava izradu vlastitog sučelja iznad kamera ekrana.</string>
+    <string name="FeatureUnsuportedAndroidVersion">Ova opcija nije dostupna za starije verzije Android uređaja</string>
+    <string name="FeatureUnsuportedAutofocus">Ova opcija nije dostupna za uređaje bez mogućnosti autofocusa</string>
+    <string name="FeatureUnsuportedDevice">Tehničke karakteristike vašeg uređaja ne omogućavaju korištenje ove opcije</string>
+    <string name="FullRecognition">Uplatnica prepoznata</string>
+    <string name="InvalidLicense">Pogrešan licencni ključ. Molim provjerite ADB error log za detalje.</string>
+    <string name="NoRecognition">Uplatnica nije prepoznata</string>
+    <string name="NoRecognizers">Barem jedan prepoznavatelj mora biti uključen</string>
+    <string name="PPCancel">Odustani</string>
+    <string name="PPUse">Koristi</string>
+    <string name="PartialDetected">Neki dijelovi uplatnice nisu vidljivi</string>
+    <string name="PartialRecognition">Uplatnica djelomično prepoznata</string>
+    <string name="Processing">Molim, držite telefon mirno, slika se obrađuje</string>
+    <string name="ResultList">Popis rezultata skeniranja</string>
+    <string name="action_torch">Svjetlo</string>
+    <string name="activity_title_step_back_side">Stražnja strana</string>
+    <string name="activity_title_step_front_side">Prednja strana</string>
+    <string name="activity_title_step_liveness" ns1:ignore="UnusedResources">Selfie</string>
+    <string name="liveness_action_blink" ns1:ignore="UnusedResources">Sklopite oči\nna tren</string>
+    <string name="liveness_action_smile" ns1:ignore="UnusedResources">Osmijehom\npokažite zube</string>
+    <string name="liveness_msg_face_angle" ns1:ignore="UnusedResources">Poravnajte\ntelefon\ns licem</string>
+    <string name="liveness_msg_face_too_close" ns1:ignore="UnusedResources">Udaljite se\nod kamere</string>
+    <string name="liveness_msg_face_too_far" ns1:ignore="UnusedResources">Približite se\nkameri</string>
+    <string name="liveness_msg_position_face" ns1:ignore="UnusedResources">Pozicionirajte\nlice unutar\nokvira</string>
+    <string name="loading">Učitavanje…</string>
+    <string name="mbAlertTitle">Upozorenje</string>
+    <string name="mbCameraNotAllowed">Korištenje kamere je zabranjeno sigunosnim postavkama.</string>
+    <string name="mbCameraNotReady">Kamera nije spremna.</string>
+    <string name="mbCameraPermissionRequired">Potrebna je dozvola za pristup kameri.</string>
+    <string name="mbConfirm" ns1:ignore="ExtraTranslation">Potvrdi</string>
+    <string name="mbContinue" ns1:ignore="ExtraTranslation">Nastavi</string>
+    <string name="mbDataNotMatchMsg" ns1:ignore="MissingTranslation">Prednja i stražnja strana se ne podudaraju.</string>
+    <string name="mbEnableCamera">Dozvoli pristup kameri</string>
+    <string name="mbEnablePermissionHelp">Bit ćete odvedeni na sustavske postavke gdje morate aplikaciji dozvoliti pristup kameri.</string>
+    <string name="mbErrorInitializing">Greška kod inicijalizacije native komponente. Provjerite ADB error log za detalje.</string>
+    <string name="mbHelp">Upute</string>
+    <string name="mbHome">Početna</string>
+    <string name="mbLightOff">Svjetlo</string>
+    <string name="mbLightOn">Svjetlo</string>
+    <string name="mbOK">U redu</string>
+    <string name="mbOcrLineHelpMessage" ns1:ignore="ExtraTranslation">Postavite cijelo bijelo područje u prozor iznad</string>
+    <string name="mbScanAgain">Skeniraj ponovno</string>
+    <string name="mbSkip" ns1:ignore="ExtraTranslation">Preskoči</string>
+    <string name="mbWarningTitle">Upozorenje</string>
+    <string name="random_scan_message_default" ns1:ignore="ExtraTranslation">Postavite element kojeg skenirate u ovaj prostor</string>
+    <string name="random_scan_overwrite_confirm_message" ns1:ignore="ExtraTranslation">Jeste li sigurni da želite ponovno skenirati %s?</string>
+    <string name="splash_msg_id_back">Stražnja strana osobne iskaznice</string>
+    <string name="splash_msg_id_front">Prednja strana osobne iskaznice</string>
+    <string name="splash_msg_selfie" ns1:ignore="UnusedResources">Selfie</string>
+    <string name="tooltip_back_id">Postavite <b>STRAŽNJU STRANU</b> osobne iskaznice u okvir i pričekajte automatsko skeniranje</string>
+    <string name="tooltip_front_id">Postavite <b>PREDNJU STRANU</b> osobne iskaznice u okvir i pričekajte automatsko skeniranje</string>
+    <string name="tooltip_glare">Smanjite odsjaj laganim pomicanjem dokumenta.</string>
+</resources>

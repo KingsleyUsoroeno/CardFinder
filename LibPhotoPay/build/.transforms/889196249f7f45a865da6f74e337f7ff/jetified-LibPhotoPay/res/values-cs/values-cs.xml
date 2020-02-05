@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Align">Zaměřte kameru na složenku, prosím.</string>
+    <string name="AutofocusFail">Nedaří se mi to načíst. Možná by pomohlo jiné osvětlení. </string>
+    <string name="CameraAtAngle">Zaměřte číslo účtu do rámečku prosím, ať na to hezky vidím.</string>
+    <string name="CameraTooHigh">Šlo by to trochu blíž? Děkuji!</string>
+    <string name="CameraTooNear">Šlo by to trochu oddálit? Děkuji!</string>
+    <string name="Copied">Tak a mám to!</string>
+    <string name="Copy">Zkopírovat</string>
+    <string name="CustomUIForbidden">License does not permit custom camera activity!</string>
+    <string name="FeatureUnsuportedAndroidVersion">Tato funkce je dostupná pro Android 2.1 a novější.</string>
+    <string name="FeatureUnsuportedAutofocus">Tato funkce je dostupná pouze pro zařízení s automatickým zaostrováním.</string>
+    <string name="FeatureUnsuportedDevice">Tato funkce není podporovaná Vašim zařízením.</string>
+    <string name="FullRecognition">Rozeznal jsem složenku.</string>
+    <string name="InvalidLicense">Neplatná licence! Zkontrolujte ADB error log pro více detailu.</string>
+    <string name="NoRecognition">Nedaří se mi to načíst.</string>
+    <string name="NoRecognizers">Alespoň jeden rozeznávací algoritmus musí být aktivován!</string>
+    <string name="PPCancel">Zrušit</string>
+    <string name="PPUse">Použít</string>
+    <string name="PartialDetected">Nedaří se mi načíst některé části složenky.</string>
+    <string name="PartialRecognition">Částečně jsem rozeznal složenku</string>
+    <string name="Processing">Zaměřte kameru, prosím, ať na to hezky vidím.</string>
+    <string name="ResultList">Seznam výsledkú </string>
+    <string name="loading">Načítám…</string>
+    <string name="mbCameraNotAllowed">Nemám povolení použít kameru na Vašem zařízení. .</string>
+    <string name="mbCameraNotReady">Kamera není k dispozici.</string>
+    <string name="mbCameraPermissionRequired">Pro používaní kamery potrěbuji Váš souhlas.</string>
+    <string name="mbConfirm">Povolit</string>
+    <string name="mbContinue">Dále</string>
+    <string name="mbEnableCamera">Povolit kameru</string>
+    <string name="mbEnablePermissionHelp">Přesměruji Vás do nastavení, kde mi budete moci povolit přístup ke kameře.</string>
+    <string name="mbErrorInitializing">Nepovedlo se mi otevřít knihovnu. Zkontrolujte ADB error log pro více detailu.</string>
+    <string name="mbHelp">Nápověda</string>
+    <string name="mbHome">Zpět</string>
+    <string name="mbLightOff">Světlo</string>
+    <string name="mbLightOn">Světlo</string>
+    <string name="mbOcrLineHelpMessage">Celý dokument nasměrujte do bíleho obdelínku níže.</string>
+    <string name="mbSkip">Přeskočit</string>
+    <string name="mbWarningTitle">Varování</string>
+    <string name="random_scan_message_default">Zaměřte kameru tak, aby rohy složenky zapadli do rohů na obrazovce.</string>
+    <string name="random_scan_overwrite_confirm_message">Skutečně se přejete znovu naskenovat %s?</string>
+</resources>

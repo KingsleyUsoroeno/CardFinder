@@ -1,0 +1,2 @@
+include ':app', ':LibPhotoPay'
+rootProject.name='CardFinder'

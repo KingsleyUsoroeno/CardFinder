@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false" android:state_enabled="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+            <stroke android:width="1dp" android:color="@color/mbButtonBorder" />
+            <solid android:color="@color/mbButtonBackgroundNormal" />
+            <size android:width="@dimen/diameter_circle_button" android:height="@dimen/diameter_circle_button"/>
+        </shape>
+    </item>
+    <item android:state_pressed="true" android:state_enabled="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+            <stroke android:width="1dp" android:color="@color/mbButtonBorder" />
+            <solid android:color="@color/mbButtonBackgroundPressed" />
+            <size android:width="@dimen/diameter_circle_button" android:height="@dimen/diameter_circle_button"/>
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+            <stroke android:width="1dp" android:color="@color/mbButtonBackgroundDisabled" />
+            <solid android:color="@color/mbButtonBackgroundDisabled" />
+            <size android:width="@dimen/diameter_circle_button" android:height="@dimen/diameter_circle_button"/>
+        </shape>
+    </item>
+</selector>

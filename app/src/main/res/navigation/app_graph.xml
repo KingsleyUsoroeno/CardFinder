@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.kingtech.cardfinder.modules.ui.welcome.WelcomeFragment"
+        android:label="WelcomeFragment"
+        tools:layout="@layout/fragment_welcome">
+        <action
+            android:id="@+id/action_welcomeFragment_to_cardInputFragment"
+            app:destination="@id/cardInputFragment" />
+        <action
+            android:id="@+id/action_welcomeFragment_to_cardScannerFragment"
+            app:destination="@id/cardScannerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cardInputFragment"
+        android:name="com.kingtech.cardfinder.modules.ui.card_input.CardInputFragment"
+        android:label="CardInputFragment"
+        tools:layout="@layout/card_input_fragment">
+
+        <action
+            android:id="@+id/action_cardInputFragment_to_cardDisplayFragment"
+            app:destination="@id/cardDisplayFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cardDisplayFragment"
+        android:name="com.kingtech.cardfinder.modules.ui.display_card.CardDisplayFragment"
+        android:label="CardDisplay"
+        tools:layout="@layout/fragment_card_display" />
+    <fragment
+        android:id="@+id/cardScannerFragment"
+        android:name="com.kingtech.cardfinder.modules.ui.card_scanner.CardScannerFragment"
+        android:label="CardScanner"
+        tools:layout="@layout/fragment_card_scanner" />
+</navigation>

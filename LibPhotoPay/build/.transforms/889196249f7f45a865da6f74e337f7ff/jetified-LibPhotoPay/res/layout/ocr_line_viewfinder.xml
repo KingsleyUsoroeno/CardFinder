@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/transparent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:background="@color/ocr_line_background" >
+
+            <TextView
+                android:id="@+id/status_msg_display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:background="@color/transparent"
+                android:text="@string/AlignOcrLine" />
+        </RelativeLayout>
+
+        <com.microblink.view.viewfinder.OcrLineViewfinder
+            android:id="@+id/ocr_line_viewfinder"
+            android:layout_width="match_parent"
+            android:background="@color/transparent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2" />
+
+        <RelativeLayout
+            android:id="@+id/ocr_line_help_holder"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:background="@color/ocr_line_background" >
+
+            <include
+                android:id="@+id/ocr_line_moveable_help"
+                layout="@layout/ocr_help_bar"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ocr_line_help_button"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right|top"
+        android:layout_margin="8dp"
+        android:alpha="0.9"
+        android:background="@drawable/microblink_button"
+        android:minHeight="1dp"
+        android:minWidth="1dp"
+        android:paddingBottom="4dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="4dp"
+        android:text="@string/mbHelp"
+        android:textColor="@color/mbButtonForeground"
+        android:textSize="14sp"
+        tools:ignore="RtlHardcoded,UnusedAttribute"/>
+
+    <Button
+        android:id="@+id/ocr_line_torch_button"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center|top"
+        android:layout_margin="8dp"
+        android:alpha="0.9"
+        android:background="@drawable/microblink_button"
+        android:drawableLeft="@drawable/lightoff"
+        android:drawablePadding="5dp"
+        android:minHeight="1dp"
+        android:minWidth="1dp"
+        android:paddingBottom="4dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="4dp"
+        android:text="@string/mbLightOff"
+        android:textColor="@color/mbButtonForeground"
+        android:textSize="14sp"
+        tools:ignore="RtlHardcoded,UnusedAttribute"/>
+
+    <Button
+        android:id="@+id/ocr_line_back_button"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left|top"
+        android:layout_margin="8dp"
+        android:alpha="0.9"
+        android:background="@drawable/microblink_button"
+        android:minHeight="1dp"
+        android:minWidth="50dp"
+        android:paddingBottom="4dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="4dp"
+        android:text="@string/mbHome"
+        android:textColor="@color/mbButtonForeground"
+        android:textSize="14sp"
+        tools:ignore="RtlHardcoded,UnusedAttribute,BackButton"/>
+
+</FrameLayout>

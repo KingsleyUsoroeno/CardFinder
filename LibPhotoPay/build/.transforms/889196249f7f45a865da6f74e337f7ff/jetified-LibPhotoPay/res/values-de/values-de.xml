@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string name="Align">Positionieren Sie das Gerät über dem Überweisungsträger</string>
+    <string name="AlignBarcode" ns1:ignore="UnusedResources">Positionieren Sie das Gerät über den Barcode</string>
+    <string name="AlignOcrLine">Positionieren Sie das Gerät über dem OCR-Linie</string>
+    <string name="AutofocusFail">Die Kamera kann nicht fokussieren. Bitte versuchen Sie unter anderen Lichtbedingungen zu scannen.</string>
+    <string name="CameraAtAngle">Bitte richten Sie die OCR-Linie im Feld unter aus. Der Winkel der OCR-Linie ist zu steil.</string>
+    <string name="CameraTooHigh">Bringen Sie den Überweisungsträger näher ran</string>
+    <string name="FeatureUnsuportedAndroidVersion">Diese Funktion ist verfügbar für Android 2.1 und neuere Betriebssysteme.</string>
+    <string name="FeatureUnsuportedAutofocus">Diese Funktion ist für Geräte ohne Autofokus-Option nicht verfügbar.</string>
+    <string name="FeatureUnsuportedDevice">Diese Option ist für Ihr Gerät nicht verfügbar.</string>
+    <string name="FullRecognition">Überweisungsträger wurde erkannt</string>
+    <string name="NoRecognition">Überweisungsträger wurde nicht erkannt</string>
+    <string name="PartialDetected">Ein Teil des Überweisungsträgers ist nicht sichtbar</string>
+    <string name="PartialRecognition">Überweisungsträger wurde teilweise erkannt</string>
+    <string name="Processing">Halten Sie das Gerät bitte still. Verarbeitung läuft…</string>
+    <string name="loading">Laden…</string>
+    <string name="mbCameraNotAllowed">Die Kameranutzung ist verboten.</string>
+    <string name="mbCameraNotReady">Die Kamera ist nicht bereit.</string>
+    <string name="mbHelp">Hilfe</string>
+    <string name="mbHome">Zurück</string>
+    <string name="mbLightOff">Licht</string>
+    <string name="mbLightOn">Licht</string>
+    <string name="mbWarningTitle">Warnung</string>
+    <string name="random_scan_message_default" ns1:ignore="ExtraTranslation">Positionieren Sie den zu scannenden Bereich im Fenster</string>
+    <string name="random_scan_overwrite_confirm_message" ns1:ignore="ExtraTranslation">Möchten Sie %s noch einmal scannen?</string>
+</resources>
