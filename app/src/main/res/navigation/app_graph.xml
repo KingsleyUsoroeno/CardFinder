@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/welcomeFragment"
         android:name="com.kingtech.cardfinder.modules.ui.welcome.WelcomeFragment"
-        android:label="WelcomeFragment"
+        android:label="CardFinder"
         tools:layout="@layout/fragment_welcome">
         <action
             android:id="@+id/action_welcomeFragment_to_cardInputFragment"
@@ -26,7 +26,15 @@
 
         <action
             android:id="@+id/action_cardInputFragment_to_cardDisplayFragment"
-            app:destination="@id/cardDisplayFragment" />
+            app:destination="@id/cardDisplayFragment"
+            app:popUpTo="@id/cardDisplayFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_cardInputFragment_to_cardDisplayFragment2"
+            app:destination="@id/cardDisplayFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/cardInputFragment"
+            app:popUpToInclusive="true" />
     </fragment>
 
     <fragment
@@ -34,6 +42,7 @@
         android:name="com.kingtech.cardfinder.modules.ui.display_card.CardDisplayFragment"
         android:label="CardDisplay"
         tools:layout="@layout/fragment_card_display" />
+
     <fragment
         android:id="@+id/cardScannerFragment"
         android:name="com.kingtech.cardfinder.modules.ui.card_scanner.CardScannerFragment"

@@ -11,6 +11,7 @@ import com.kingtech.cardfinder.data.entities.CardResult
 import com.kingtech.cardfinder.data.network.RetrofitClient
 import com.kingtech.cardfinder.data.repository.CardServiceRepository
 import com.kingtech.cardfinder.utils.Constant
+import com.kingtech.cardfinder.utils.SingleEventLiveData
 import kotlinx.coroutines.launch
 
 class CardInputViewModel(application: Application) : AndroidViewModel(application) {
@@ -20,7 +21,7 @@ class CardInputViewModel(application: Application) : AndroidViewModel(applicatio
     }
 
     private val loadingState = MutableLiveData<Boolean>()
-    private val successState = MutableLiveData<CardResult>()
+    private val successState = SingleEventLiveData<CardResult>()
     private val errorState = MutableLiveData<String>()
 
     val cardInputText = MutableLiveData<String>("")
@@ -32,7 +33,7 @@ class CardInputViewModel(application: Application) : AndroidViewModel(applicatio
     val loadingLiveData: LiveData<Boolean>
         get() = loadingState
 
-    val success: LiveData<CardResult>
+    val success: SingleEventLiveData<CardResult>
         get() = successState
 
     val errorLiveData: LiveData<String>

@@ -37,7 +37,7 @@ class CardDisplayFragment : Fragment() {
             val cardResult = it.getSerializable(Constant.CARD_RESULT)
             if (cardResult != null) {
                 val cardResultData = cardResult as CardResult
-                Log.i(TAG, "CardDisPlayFragment is ${cardResultData.result}")
+                Log.i(TAG, "CARD_RESULT IS ${cardResultData.result}")
                 setUpAdapter(cardResultData.result)
             }
         }
